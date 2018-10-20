@@ -1,0 +1,22 @@
+{
+  "name": "projeto-php",
+  "version": "1.0.0",
+  "description": "Trabalho de PHP",
+  "main": "main.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ron17/trabalho-php.git"
+  },
+  "author": "Ronaldo Gomes",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ron17/trabalho-php/issues"
+  },
+  "homepage": "https://github.com/ron17/trabalho-php#readme",
+  "dependencies": {
+    "node-sass": "^4.9.4"
+  }
+}

@@ -1,0 +1,52 @@
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    opacity: 0.9;
+    background: $cor-secundaria;
+    height: 10vh;
+
+    &-nav,
+    &-login {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        float: left;
+        justify-content: flex-start;
+        width: 50%;
+        height: 10vh;
+        margin: 0;
+        list-style: none;
+    }
+
+    .nav-item {
+        margin-right: 4rem;
+    }
+
+    &-login {
+        justify-content: flex-end;
+    }
+
+    .btn-login,
+    .btn-signin {
+        background: $cor-secundaria;
+        border: 2px solid #fff;
+        color: #fff;
+        padding: 5px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        border-radius: 4px;
+        @include easeOut;
+        cursor: pointer;
+        margin-right: 1rem;
+    }
+
+    .btn-login:hover,
+    .btn-signin:hover {
+        background: #fff;
+        color: $cor-secundaria;
+    }
+
+}

@@ -1,0 +1,30 @@
+@import 'config';
+@import 'menu';
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: $cor-primaria;
+    color: cor-texto($cor-primaria);
+    height: 100%;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+main{
+    padding: 4rem;
+    min-height: calc(100-vh - 60px);
+}

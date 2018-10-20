@@ -1,0 +1,14 @@
+$cor-primaria: #444;
+$cor-secundaria: rgb(214, 73, 108);
+
+@function cor-texto($cor){
+    @if(lightness($cor) > 40){
+        @return #000;
+    }@else{
+        @return #fff;
+    }
+}
+
+@mixin easeOut {
+    transition: all 0.5s ease-out;
+}
